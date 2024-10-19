@@ -1,0 +1,40 @@
+/* overlay bg */
+.overlay-bg {
+  position: relative;
+  cursor: pointer;
+  &:after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    border-radius: $border-radius-lg;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+  }
+  &:hover {
+    &:after {
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(1.2px);
+      -webkit-backdrop-filter: blur(1.2px);
+      height: 100%;
+    }
+  }
+}
+.vignette-bg {
+  position: relative;
+  cursor: pointer;
+  &:before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+}

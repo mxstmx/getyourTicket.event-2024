@@ -1,0 +1,23 @@
+// footer
+
+.footer {
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: $light-info;
+    width: 40px;
+    height: 40px;
+    i {
+      font-size: 20px;
+      color: var(--primary);
+    }
+    &:hover {
+      background: var(--primary);
+      i {
+        color: $light-info;
+      }
+    }
+  }
+}

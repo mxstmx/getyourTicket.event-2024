@@ -1,0 +1,46 @@
+.pricing-card {
+  border-radius: 24px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  padding: 1.5rem;
+  color: $gray-900;
+  // box-shadow: 0px 5px 10px rgba($color: #0cebeb, $alpha: 0.2);
+  box-shadow: 1px 5px 10px rgba($color: #d4d4d4, $alpha: 0.2);
+  border: 1px solid #e7ebff;
+  img {
+    border-radius: 16px;
+  }
+  .pricing-head {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .pricing-content {
+    color: $gray-700;
+    font-size: 0.9rem;
+  }
+  .pricing-social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: var(--chart-color1);
+    border: 1px solid #e7ebff;
+    box-shadow: 0px 5px 40px rgba($color: #f2f2f2, $alpha: 0.2);
+    i {
+      font-size: 1.5rem;
+    }
+  }
+  .best-offer-pill {
+    display: inline-block;
+    background: transparent;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 2px 4px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+  }
+}

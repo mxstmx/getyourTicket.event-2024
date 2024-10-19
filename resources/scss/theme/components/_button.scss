@@ -1,0 +1,103 @@
+//Gradient button
+.btn-gradient {
+  background-image: linear-gradient(
+    to right,
+    #0038bb 0%,
+    #758bfd 51%,
+    #0038bb 100%
+  );
+
+  // background-image: linear-gradient(
+  //   to right,
+  //   #00c6ff 0%,
+  //   #0072ff 51%,
+  //   #00c6ff 100%
+  // );
+  padding: 10px 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 14px;
+  display: block;
+  border: 1px solid #eee;
+
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    border: 1px solid #eee;
+    text-decoration: none;
+    transform: scale(1.015);
+  }
+}
+
+.btn-primary {
+  color: white !important;
+}
+
+// btn outline white
+.btn-outline-white {
+  border-color: white;
+  color: white;
+  &:hover {
+    background-color: white;
+    border-color: white;
+    color: $gray-900;
+  }
+  &:focus {
+    background-color: white;
+    border-color: white;
+    color: $gray-900;
+  }
+  &.active {
+    background-color: white;
+    border-color: white;
+    color: $gray-900;
+  }
+}
+
+.btn-icon-lg {
+  height: 3.25rem;
+  width: 3.25rem;
+}
+
+.btn-dash-success {
+  background-color: $light-success !important;
+  border: 1px solid #4ade80 !important;
+  color: $gray-900;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+.btn-dash-danger {
+  background-color: $light-danger !important;
+  border: 1px solid #fca5a5 !important;
+  color: $gray-900;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+.btn-dash-warning {
+  background-color: $light-warning !important;
+  border: 1px solid #facc15 !important;
+  color: $gray-900;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+.btn-dash-secondary {
+  background-color: $gray-100 !important;
+  border: 1px solid $gray-500 !important;
+  color: $gray-900;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+.btn-dash-primary {
+  background-color: $light-info !important;
+  border: 1px solid $info !important;
+  color: $gray-900;
+  border-radius: 12px;
+  padding: 0.25rem;
+}

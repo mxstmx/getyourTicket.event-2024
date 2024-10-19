@@ -1,0 +1,50 @@
+// Team Card
+.sponser-card {
+  border-radius: 16px;
+  background-color: var(--color-fff);
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  img {
+    border-radius: 16px;
+  }
+  @media (max-width: 991px) {
+    padding: 0.5rem !important;
+  }
+  .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    @media (max-width: 991px) {
+      font-size: 1rem;
+    }
+  }
+  .job {
+    color: var(--color-500);
+    @media (max-width: 991px) {
+      font-size: 0.7rem;
+    }
+  }
+  .team-social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #fafafb;
+    width: 30px;
+    height: 30px;
+    i {
+      font-size: 15px;
+      color: var(--secondary-color);
+    }
+    &:hover {
+      background-color: var(--chart-color1);
+      i {
+        color: var(--secondary-color);
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    background-color: transparent !important;
+    padding: 1rem;
+  }
+}
